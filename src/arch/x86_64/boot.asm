@@ -6,6 +6,8 @@ bits 32
 start:
     ; Update the stack pointer register
     mov esp, stack_top
+    ; Move Multiboot info pointer to edi
+    mov edi, ebx
 
     ; Run some checks
     call check_multiboot

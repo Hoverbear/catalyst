@@ -19,6 +19,7 @@ I'm reading these resources as I go:
 
 * http://os.phil-opp.com/
 * http://intermezzos.github.io/
+* https://rajiv256.github.io/projects/ouros/
 
 Please open an issue if you can recommend more!
 
