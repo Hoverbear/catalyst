@@ -1,0 +1,11 @@
+[package]
+name = "catalyst"
+version = "0.0.1"
+authors = ["Andrew Hobden <andrew@hoverbear.org>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+rlibc = "1.0"
+compiler_builtins = { git = "https://github.com/rust-lang-nursery/compiler-builtins" }
